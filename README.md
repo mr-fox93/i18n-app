@@ -1,5 +1,10 @@
 # Internationalized Routing
 
+### Internationalization (i18n)
+
+<b>Tested the implementation of internationalization using i18n in Next.js 14 with App Router to ensure multi-language support capabilities.</b>
+
+
 Next.js doesn't support internationalized routing in `app` directory out of the box. But you can easily implement it yourself. This example shows how to implement internationalized routing on the Edge.
 
 ## Deploy your own
