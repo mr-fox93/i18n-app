@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getDictionary } from "../../get-dictionary";
 import { Locale } from "../../i18n-config";
 import Counter from "./components/counter";
@@ -10,6 +11,8 @@ export default async function IndexPage({
 }) {
   const dictionary = await getDictionary(lang);
 
+  // const landingUrl = `/landing?lang=${lang}`;
+
   return (
     <div>
       <LocaleSwitcher />
@@ -19,6 +22,7 @@ export default async function IndexPage({
         {dictionary["server-component"].welcome}
       </p>
       <Counter dictionary={dictionary.counter} />
+      <Link href="/landing">GO</Link>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 {
   "server-component": {
-    "welcome": "Willkommen"
+    "welcome": "Willkommen",
+    "landing": "Willkommen auf der Landingpage"
   },
   "counter": {
     "increment": "Zuwachs",

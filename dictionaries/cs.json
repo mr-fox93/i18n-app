@@ -1,6 +1,7 @@
 {
   "server-component": {
-    "welcome": "Vítejte"
+    "welcome": "Vítejte",
+    "landing": "Bienvenido a la página de destino"
   },
   "counter": {
     "increment": "Přidat",

@@ -1,6 +1,7 @@
 {
   "server-component": {
-    "welcome": "Welcome"
+    "welcome": "Welcome",
+    "landing": "Welcome on landing Page"
   },
   "counter": {
     "increment": "Increment",
